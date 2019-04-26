@@ -1,0 +1,9 @@
+*************global values***************
+browser=chrome
+url=https://www.facebook.com
+email=user1
+password=test1
+*************object for login************
+email_name=email
+password_name=pass
+loginBtn_xpath=//input[@value='Log In']

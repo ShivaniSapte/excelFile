@@ -1,0 +1,136 @@
+*************global values***************
+browser=chrome
+url=https://www.paytm.com
+actualTitle=Paytm.com – Recharge & Utility Payments, Entertainment, Travel, DTH, Wallet & Payments
+
+
+*************object for download app*******************
+downloadApp_css=span.F7TQ
+mobile_num_xpath=//*[@id='app']/div/div[2]/div[2]/div[3]/div[1]/div[2]/div/div[1]/div/div/input
+send_link_xpath=//*[@id=\"app\"]/div/div[2]/div[2]/div[3]/div[1]/div[2]/div/div[1]/div/button
+
+
+*****************objects for paytm wallet******************
+wallet_css=div._3fM-v
+
+
+*************object for login************
+login_xpath=//div[@class='_3ac-']
+frame_xpath=//*[@id='app']/div/div[6]/div[2]/div/iframe
+login_with_num_xpath=//*[@id='wallet-container-new qr-bg-white']/qr-code-login/div[2]/div[2]/div[3]/span
+mobilenum_xpath=//input[@name='username']
+password_xpath=//input[@name='password']
+login_button_xpath=//*[@id='loginForm']/div/md-content/button
+
+
+*************object for bus************
+bus_xpath=//*[@id=\"app\"]/div/div[3]/div/div[3]/div[2]/div/div/div[1]/div[3]/div
+source_xpath=(//*[@id='text-box'])[1]
+destination_xpath=(//*[@id='text-box'])[2]
+search_bus_xpath=//button[@class='button button--default button--bold _3Su5']
+select_bus_xpath=//*[@id=\"app\"]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div[1]/div[6]/button
+avlbl_bus_seat_xpath=//*[@id=\"app\"]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/ul/li[4]/a
+boarding_bus_point_xpath=//*[@id=\"app\"]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/span/div/div[3]/div[2]/div/div[1]/div/div/div/span
+bus_boarding_option_xpath=//*[@id=\"app\"]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/span/div/div[3]/div[2]/div/div[1]/div/ul/li[3]
+bus_drop_point_xpath=//*[@id="app"]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/span/div/div[3]/div[2]/div/div[3]/div/div/div/span
+bus_dropping_oprtion_xpath=//*[@id="app"]/div/div[2]/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/span/div/div[3]/div[2]/div/div[3]/div/ul/li[8]
+bus_continue_btn_xpath=//button[@class='button button--default button--block button--bold']
+
+
+*************************objects for flight************************
+flight_xpath=//div[@class='_17WC' and @data-reactid='250']
+flight_source_xpath=//input[@class='fl-input' and @data-reactid='168']
+flight_dest_xpath=//input[@class='fl-input' and @data-reactid='180']
+flight_search_xpath=//*[@class='button button--default button--bold _3LRd']
+flight_calendar_xapth=
+flight_slctDate_xpath=
+flight_travellers_xpath=//*[@id="text-box"]
+flight_adults_xpath=//*[@id=\"app\"]/div/div[2]/div/div[2]/div/div[1]/div/div/div[2]/div[7]/div/div[2]/div[1]/div[1]/div/div[4]
+flight_child_xpath=//*[@id="app"]/div/div[2]/div/div[2]/div/div[1]/div/div/div[2]/div[7]/div/div[2]/div[1]/div[2]/div/div[4]
+flight_business_class_xpath=//*[@id=\"app\"]/div/div[2]/div/div[2]/div/div[1]/div/div/div[2]/div[7]/div/div[2]/div[2]/div[3]/div/label
+flight_done_xpath=//*[@id=\"app\"]/div/div[2]/div/div[2]/div/div[1]/div/div/div[2]/div[7]/div/div[2]/div[3]
+flight_depart_xpath=//*[@id=\"app\"]/div/div[2]/div/div/div/div[3]/div[2]/div/div[2]/div[3]/div
+flight_duration_xpath=//*[@id="app"]/div/div[2]/div/div/div/div[3]/div[2]/div/div[2]/div[4]/div
+flight_arrival_xpath=//*[@id="app"]/div/div[2]/div/div/div/div[3]/div[2]/div/div[2]/div[5]/div
+
+
+
+****************object for metro****************
+metro_xpath=//*[@id=\"app\"]/div/div[3]/div/div[1]/div/a[4]/div/span
+metroName_xpath=//*[@id=\"app\"]/div/div[4]/div[1]/div[1]/div/div[2]/div[1]/ul/li/div/div/input
+card_xpath=//*[@id=\"app\"]/div/div[4]/div[1]/div[1]/div/div[2]/div[1]/ul/li[2]/div[1]/input
+amount_xpath=//*[@id=\"app\"]/div/div[4]/div[1]/div[1]/div/div[2]/div[1]/ul/li[3]/div[1]/div/input
+proceed_xpath=//*[@class='_11kC  _15qf _2qE6']
+logo_xpath=//*[@id="app"]/div/div[4]/div[2]/div/div[1]/div/ul/div[1]/div/li/div/img
+checkbox_css=i._1nFl
+pay_xpath=//button[@class='_11kC _2CKY _15qf _2qE6']
+frame_xpath=//*[@id=\"app\"]/div/div[6]/div[2]/div/div/div/iframe
+login_xpath=//*[@id=\"wallet-container-new qr-bg-white\"]/qr-code-login/div[2]/div[2]/div[3]/span
+paytmNo_xpath=//*[@id="input_0"]
+paytmPass_xpath=//*[@id="input_1"]
+loginSecurely_xpath=//*[@id="loginForm"]/div/md-content/button
+signup_xpath=//*[@id="login-header-wrapper"]/ul/li[2]
+
+
+*********************objects for hotel*************************
+hotel_xpath=//*[@id="app"]/div/div[3]/div/div[3]/div[2]/div/div/div[1]/div[7]/div
+destList_xpath=//*[@id="root"]/div/div[1]/div/div[1]/div/ul/li[13]
+selectHotel_xpath=//*[@id="root"]/div/div[1]/div/div/div/div[2]/div[1]/ul/li[6]/a/div[1]/div[2]
+search_xpath=//*[@id="root"]/div/header/div[3]/div/div/div/ul/li[1]/div/div/div
+mumbai_xpath=//*[@id="root"]/div/header/div[3]/div/div/div/ul/li[1]/div/div/div/div[2]/div/div/span[3]
+
+
+***********************objects for amusement park*****************
+amusement_xpath=//*[@id="app"]/div/div[3]/div/div[3]/div[2]/div/div/div[1]/div[10]/div
+waterPark_xpath=//*[@id="app"]/div/div[4]/div[3]/div/div[1]/ul/li[2]/a
+selectPark_xpath=//*[@id=\"parks\"]/ul/ul[1]/li[2]/a/div[2]
+calendar_xpath=//*[@id="app"]/div/div[4]/div[2]/div/div[2]/div[2]/div/div[1]/ul/li
+
+
+**********************objects for DTH******************************
+dth_xpath=//*[@id="app"]/div/div[3]/div/div[1]/div/a[3]
+srvc_provider_xpath=//*[@id='app']/div/div[4]/div[1]/div[1]/div/div[2]/div[1]/ul/li[1]/div/div/input
+dthNum_xpath=//*[@id='app']/div/div[4]/div[1]/div[1]/div/div[2]/div[1]/ul/li[2]/div[1]/input
+amount_xpath=//*[@id='app']/div/div[4]/div[1]/div[1]/div/div[2]/div[1]/ul/li[3]/div[1]/div/input
+proceed_xpath=//*[@id='app']/div/div[4]/div[1]/div[1]/div/div[2]/div[4]/button
+
+
+********************objects for AC*********************************
+ac_xpath=//*[@id='app']/div/div[3]/div/div[7]/div[1]/div[2]/div/div/div[1]/div[3]/div/a/div
+chng_pincod_xpath=//span[@class='_2oRS']
+entr_pincod_xpath=//input[@placeholder='Enter Pincode']
+chek_pincod_css=span._35OV
+buy_css=button._2CNI
+my_order_xpath=//*[@id='app']/div/div[2]/div[2]/div/div[3]/div[1]/div/span[2]
+frame_xpath=//*[@id='app']/div/div[6]/div[2]/div/iframe
+user_name_xpath=//input[@name='username']
+password_xpath=//input[@name='password']
+loin_xpath=//*[@id='loginForm']/div/md-content/button
+
+
+*******************objects for movie********************************
+movie_xpath=//div[@class='_17WC' and @data-reactid='245']
+city_xpath=//*[@id="app"]/div/div[4]/div[2]/div/div[1]/div/div/div[1]/ul/li[8]/a
+language_xpath=//*[@id="app"]/div/div[4]/div[2]/div[3]/div/div[1]/div[2]/a[2]
+select_movie_xpath=//*[@id="popular-movies"]/ul/li[1]/a/div[1]/div/div
+about_movie_xpath=//*[@id="app"]/div/div[4]/div[2]/div/div/div[2]/div[3]/div/div[1]/div/nav/ul/li[2]
+show_time_xpath=//*[@id="app"]/div/div[4]/div[2]/div/div/div[2]/div[3]/div/div[1]/div/nav/ul/li[1]
+date_xpath=//*[@id="app"]/div/div[4]/div[2]/div/div/div[2]/div[3]/div/div[2]/div[1]/div[1]/div/ul/li/div/div/div/div[5]/div/a/div
+
+
+*****************object for more option*****************************
+more_option_css=div._3CX4
+book_cylinder_xpath=//span[@class='_3-JW' and @data-reactid='127']
+check_box_pay_gas_bill_xpath=//*[@id="app"]/div/div[4]/div[1]/div/div/div[2]/div[1]/div[1]/label/i
+check_box_book_gas_xpath=//*[@id="app"]/div/div[4]/div[1]/div/div/div[2]/div[1]/div[2]/label/i
+gas_mob_num_xpath=//*[@id="app"]/div/div[4]/div[1]/div/div/div[2]/div[2]/ul/li[2]/div/input
+gas_book_proceed_xpath=//button[@class='_11kC  _15qf _2qE6']
+insurance_xpath=//*[@class='_3t0b' and @data-reactid='143']
+insurer_name_xpath=//*[@id="app"]/div/div[4]/div[1]/div/div/div[2]/div[2]/ul/li[1]/div/div/input
+inpolicy_num_xpath=//*[@id="app"]/div/div[4]/div[1]/div/div/div[2]/div[2]/ul/li[2]/div[1]/input
+insurance_dob_xpath=//*[@id="app"]/div/div[4]/div[1]/div/div/div[2]/div[2]/ul/li[3]/div/input
+insurance_mob_xpath=//*[@id="app"]/div/div[4]/div[1]/div/div/div[2]/div[2]/ul/li[4]/div/input
+insurance_btn_xpath=//button[@class='_11kC  _15qf _2qE6']
+google_play_xpath=//*[@id="app"]/div/div[3]/div/div[1]/div/div/div/div/div/a[11]
+gp_amount_xpath=//*[@id="app"]/div/div[4]/div[1]/div[1]/div/div[2]/div[1]/ul/li[2]/div/div/input
+gp_proceed_xpath=//*[@id="app"]/div/div[4]/div[1]/div[1]/div/div[2]/div[2]/div[2]/button

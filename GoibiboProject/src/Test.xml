@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  //Use of Listener for multiple classes.
+  <listners>
+  	  <listner class-name="testNG_Listners.Listner_example"/>
+  </listners>
+    <classes>
+      <class name="testNG_Listners.Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+url=http://aavtrain.com/
+usernemail = testuser@mailinator.com
+firstname = testuser
+lastname =  automation
+address_1 =  ITPD1
+address_2 =  ITPD2
+MobileNo  =  5674993874
+StateName    =  Maharastra
+CityName     =  pune
+ZipCode      = 452213
+username=testuserlogin
+password=pass@123
